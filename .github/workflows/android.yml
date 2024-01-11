@@ -1,7 +1,6 @@
 name: Android CI
 on:
-  release:
-    types: [created,deleted]
+  push
 # on:
 #   label:
 #     types: [created, deleted]
