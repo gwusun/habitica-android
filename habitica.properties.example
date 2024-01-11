@@ -2,7 +2,7 @@
 # local instance
 # PORT=3000
 PORT=80
-BASE_URL=https://habitica.com
+BASE_URL=https://h.gwusun.top
 STAGING_KEY=
 ANDROID_TESTING_UUID=
 APPLE_AUTH_CLIENT_ID=
