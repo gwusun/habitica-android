@@ -1,9 +1,12 @@
 name: Android CI
 
 on:
-  push:
-    branches: [ main, 'version/*', 'feature/*' ]
-  pull_request:
+  label:
+    types: [created, deleted]
+# on:
+#   push:
+#     branches: [ main, 'version/*', 'feature/*' ]
+#   pull_request:
 
 jobs:
   build:
